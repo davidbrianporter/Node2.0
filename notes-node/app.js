@@ -8,6 +8,10 @@ const os = require('os');
 //  ./ === current directory
 const notes = require('./notes.js');
 
+var res = notes.addNote();
+console.log(res);
+var ad = notes.add(2, 2);
+console.log('Result:', notes.add(9, -2));
 // var user = os.userInfo();
 
 // // causes a warning in ver7
